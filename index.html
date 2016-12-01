@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<!-- Written and designed by Samuel Campbell for CT4009, hello to whoever is marking this! :)
+
+                     .oooooo..o ooooooooooooo   .oooooo.   
+                    d8P'    `Y8 8'   888   `8  d8P'  `Y8b  
+                    Y88bo.           888      888          
+                     `"Y8888o.       888      888          
+                         `"Y88b      888      888          
+                    oo     .d8P      888      `88b    ooo  
+                    8""88888P'      o888o      `Y8bood8P'  
+                                                                                               
+                      .oooo.     .oooo.     .o      .ooo   
+                    .dP""Y88b   d8P'`Y8b  o888    .88'     
+                          ]8P' 888    888  888   d88'      
+                        .d8P'  888    888  888  d888P"Ybo. 
+                      .dP'     888    888  888  Y88[   ]88 
+                    .oP     .o `88b  d88'  888  `Y88   88P 
+                    8888888888  `Y8bd8P'  o888o  `88bod8'  
+-->
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+        <script src="https://apis.google.com/js/platform.js" async defer> {lang: 'en-GB'} </script>
+        <title>CT4009 - Personal Portfolio</title>
+    </head>
+    <body>
+        <div id="page-wrap">
+        <div class="fadeintext">
+        <h1 align=center>Samuel Campbell</h1>
+        <h3 align=center><em><strong>Hello world!</strong></em> This webpage is an ongoing project which is part of <a href="http://moodle.glos.ac.uk/moodle/course/view.php?id=8839"><font color="orange">CT4009</font></a>.</h3>
+       
+        
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="images.html">Images</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="fadeintext" align=center>
+            <p><strong>This is a test for playing a muted YouTube livestream as the background for a website.</strong></p>
+            <p>If it works, a video should be playing in the background of this webpage, the video itself is also forced to be played at 1080p.</p>
+            <p>Please keep in the mind that the video background is a direct stream from YouTube, so codec issues and corruption is nothing to do with the code. Refresh the page if quality does not improve.</p>
+            
+            <em><strong><p>Be sure to follow UoG on social media:</p></strong></em>
+            
+            <div id="social">
+            <!-- Official Facebook, Twitter and G+ buttons. -->
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Funiofglos%2F&width=72&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId" width="80" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <a href="https://twitter.com/uniofglos" class="twitter-follow-button" data-show-count="false">Follow @uniofglos</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <div class="g-plusone" data-size="medium" data-href="https://plus.google.com/103500992688270718512"></div>
+            </div>
+            
+        </div>
+           
+    <footer align=center>
+        <p>-----------------------------------------------------------------------------------------</p>
+        <em>This website was made by <a href="mailto:s1607415@connect.glos.ac.uk?Subject=Your%20website%20is%20amazing!" target="_top">Samuel Campbell</a> for CT4009 Introduction to Web Development.</em>
+    </div>
+       
+    <!-- This HTML code creates the video background from a YouTube Livestream, and the script referenced inside mutes the audio of the livestream when the page is loaded.-->
+    <div class="video-background">
+            <div class="video-foreground">
+                <iframe id="player" src="https://www.youtube.com/embed/HnPYeBJ9JCc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&enablejsapi=1&=HD1080" frameborder="0" allowfullscreen></iframe>
+                
+                <script type="text/javascript" src="jquery-1.8.3.js"></script>
+                <script src="javascript/YTBackground.js"></script>  
+            </div>
+    </div>
+      
+    </footer>
+    </body>
+    </div>
+</html>
